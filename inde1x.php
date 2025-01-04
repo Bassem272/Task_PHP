@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php'; // Load dependencies
 
 use GraphQL\GraphQL;
 use GraphQL\Type\Schema;
@@ -12,11 +12,10 @@ header('Access-Control-Allow-Headers: Content-Type');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit(0); // Handle CORS preflight requests
-};
-
+}
 
 // Load the GraphQL schema
-$schema = require __DIR__ .'/src/schema.php'; // Schema definition
+$schema = require 'src/schema.php'; // Schema definition
 
 // Parse input payload
 $input = json_decode(file_get_contents('php://input'), true);

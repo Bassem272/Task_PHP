@@ -3,7 +3,7 @@
         'name' => 'bassem/backend_server',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '726817a60acf8feee84a01180c03f6e62ebef763',
+        'reference' => '03a3a31708fc4938303cd9d9bb8ec9bccfea70a2',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'bassem/backend_server' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '726817a60acf8feee84a01180c03f6e62ebef763',
+            'reference' => '03a3a31708fc4938303cd9d9bb8ec9bccfea70a2',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
