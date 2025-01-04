@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php'; // Load dependencies
+require '/vendor/autoload.php'; // Load dependencies
 
 use GraphQL\GraphQL;
 use GraphQL\Type\Schema;
